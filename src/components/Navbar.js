@@ -23,9 +23,10 @@ function Navbar () {
         </ul>
       </div>
       <div className="w-3/12">
-        <div className="Button text-center"></div>
-      <a className="text-yellow-300 text-lg border rounded-full border-yellow-300 font-semibold py-2 px-6">kontak</a>
-      </div>
+       <Button/>
+    </div>
+
+    <div className="text-center uppercase"></div>
     </div>
     </div>
     )
