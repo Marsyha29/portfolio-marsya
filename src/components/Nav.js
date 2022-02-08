@@ -5,7 +5,7 @@ function nav() {
         <div className="nav">
             <Navitem/>
         </div>
-    )
+    );
 }
 
 export default nav;

@@ -1,7 +1,10 @@
+import Button from "./Button";
 import Logo from "./Logo";
-import nav from "./Nav";
+import Nav from "./Nav";
+
 function Navbar () {
     return (
+      <div className="navbar bg-indigo-600">
       <div className="container flex items-center mx-auto">
       <div className="w-3/12">
           <Logo/>
@@ -12,14 +15,13 @@ function Navbar () {
      </div>
      
       <div className="w-3/12">
-       <Button/>
+       <Button variant="outline-yellow">Contact</Button>
     </div>
 
-    <div className="text-center uppercase">
+    <div className="text-center uppercase"></div>
     </div>
     </div>
-    
-    )
+    );
 }
 
 export default Navbar;

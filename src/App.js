@@ -5,7 +5,9 @@ import Herosection from './components/HeroSection';
 
 function App() {
     return (
-      <Herosection/>
+      <>
+          <Herosection/>
+      </>
     );
 }
 
